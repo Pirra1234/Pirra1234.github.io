@@ -1,59 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Inicio - Santiago Castillo Tadeo</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Castillo - Desarrollador de Software</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <header>
-        <h1>👋 Hola, soy Santiago Castillo Tadeo</h1>
-        <p>@pirra1234 • Estudiante de Ingeniería en Gestión y Desarrollo de Software</p>
+        <img src="assets/perfil.jpg" alt="Santiago Castillo" class="profile-img">
+        <h1>Santiago Castillo Tadeo</h1>
+        <p class="subtitle">Estudiante de Ingeniería en Software | Ciberseguridad | Content Creator</p>
+        
+        <div class="social-links">
+            <a href="https://github.com/Pirra1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://youtube.com/@pirra1234" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="mailto:vegetto1234567810@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="certificados.html">Certificados</a></li>
+            <li><a href="index.html" class="active">Inicio</a></li>
             <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="certificados.html">Certificados</a></li>
         </ul>
     </nav>
 
-    <section>
-        <h2>Sobre mí</h2>
-        <p>🎓 Estudiante de Ingeniería en Gestión y Desarrollo de Software.</p>
-        <p>💻 Apasionado por el desarrollo, la ciberseguridad y la inteligencia artificial.</p>
-        <p>📹 Creador de contenido en YouTube como <strong>@pirra1234</strong>.</p>
-        <p>📫 Contacto: <a href="mailto:vegetto1234567810@gmail.com">vegetto1234567810@gmail.com</a></p>
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>👋 ¡Hola! Soy estudiante de Ingeniería en Gestión y Desarrollo de Software. Me apasiona resolver problemas complejos mediante código y proteger sistemas digitales. Además, comparto mi aprendizaje creando contenido educativo en YouTube.</p>
+        </section>
 
-        <h3>🧠 Habilidades blandas</h3>
-        <ul>
-            <li>Comunicación efectiva</li>
-            <li>Pensamiento crítico</li>
-            <li>Resolución de problemas</li>
-            <li>Trabajo en equipo</li>
-            <li>Autodisciplina y responsabilidad</li>
-        </ul>
+        <section>
+            <h2>Stack Tecnológico</h2>
+            <div class="skills-wrapper">
+                <h3>💻 Técnico</h3>
+                <div>
+                    <span class="badge tech"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="badge tech"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</span>
+                    <span class="badge tech"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+                    <span class="badge tech"><i class="fa-brands fa-linux"></i> Linux</span>
+                    <span class="badge tech"><i class="fa-solid fa-shield-halved"></i> Ciberseguridad Básica</span>
+                </div>
+                
+                <h3 style="margin-top:20px;">🧠 Habilidades Blandas</h3>
+                <div>
+                    <span class="badge soft">Pensamiento Crítico</span>
+                    <span class="badge soft">Resolución de Problemas</span>
+                    <span class="badge soft">Comunicación Efectiva</span>
+                    <span class="badge soft">Autodidacta</span>
+                </div>
+            </div>
+        </section>
 
-        <h3>📚 Actualmente aprendiendo</h3>
-        <ul>
-            <li>🔐 Seguridad informática y análisis de vulnerabilidades</li>
-            <li>🤖 Automatización con Python</li>
-            <li>💡 Buenas prácticas de desarrollo y control de versiones</li>
-        </ul>
-
-        <h3>🎯 Objetivos</h3>
-        <ul>
-            <li>Terminar la carrera universitaria</li>
-            <li>Obtener una certificación en Ethical Hacking</li>
-            <li>Publicar más proyectos en GitHub y mi canal</li>
-            <li>Contribuir a proyectos open source</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Objetivos 2025</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>✅ Terminar la carrera universitaria</li>
+                <li>🎯 Obtener certificación CEH (Ethical Hacking)</li>
+                <li>🚀 Contribuir a proyectos Open Source</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 Santiago Castillo Tadeo</p>
+        <p>© 2025 Santiago Castillo Tadeo - Desarrollado con HTML & CSS</p>
     </footer>
+
 </body>
 </html>

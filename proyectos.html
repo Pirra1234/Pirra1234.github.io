@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Proyectos - Santiago Castillo Tadeo</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Santiago Castillo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <header>
-        <h1>🛠️ Mis Proyectos</h1>
+        <h1>Mis Proyectos</h1>
+        <p class="subtitle">Código, creatividad y soluciones reales</p>
     </header>
 
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html" class="active">Proyectos</a></li>
             <li><a href="certificados.html">Certificados</a></li>
-            <li><a href="proyectos.html" aria-current="page">Proyectos</a></li>
         </ul>
     </nav>
 
-    <section>
-        <h2>Próximamente</h2>
-        <p>Aquí estarán mis proyectos más importantes. Por ahora esta sección está en desarrollo, pero pronto añadiré todo mi trabajo.</p>
-        <a href="#" class="btn">Botón de ejemplo</a>
-    </section>
+    <main>
+        <div class="grid-container">
+
+            <article class="card">
+                <div style="height:150px; background:#ddd; display:flex; align-items:center; justify-content:center; color:#555;">
+                    <i class="fa-solid fa-code fa-3x"></i>
+                </div>
+                <div class="card-content">
+                    <h3>🤖 Bot de Automatización</h3>
+                    <p>Script en Python para automatizar tareas repetitivas y manejo de archivos. Optimización de tiempos.</p>
+                    <div>
+                        <span class="badge tech">Python</span>
+                        <span class="badge tech">Automation</span>
+                    </div>
+                    <a href="https://github.com/Pirra1234" target="_blank" class="btn btn-small">Ver Código</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div style="height:150px; background:#ff0000; display:flex; align-items:center; justify-content:center; color:white;">
+                    <i class="fa-brands fa-youtube fa-3x"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Canal Tech @pirra1234</h3>
+                    <p>Creación de contenido educativo sobre tecnología, tutoriales de software y guías de instalación.</p>
+                    <div>
+                        <span class="badge soft">Edición</span>
+                        <span class="badge soft">SEO</span>
+                        <span class="badge soft">Comunicación</span>
+                    </div>
+                    <a href="https://youtube.com/@pirra1234" target="_blank" class="btn btn-small">Visitar Canal</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div style="height:150px; background:#1abc9c; display:flex; align-items:center; justify-content:center; color:white;">
+                    <i class="fa-solid fa-user-secret fa-3x"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Laboratorio de Hacking</h3>
+                    <p>Entorno controlado para pruebas de penetración y análisis de vulnerabilidades usando Kali Linux.</p>
+                    <div>
+                        <span class="badge tech">Kali Linux</span>
+                        <span class="badge tech">Networking</span>
+                    </div>
+                    <a href="#" class="btn btn-small">Ver Detalles</a>
+                </div>
+            </article>
+
+        </div>
+    </main>
 
     <footer>
         <p>© 2025 Santiago Castillo Tadeo</p>
     </footer>
+
 </body>
 </html>

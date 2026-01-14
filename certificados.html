@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificados - Santiago Castillo</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <header>
-        <h1>📜 Mis Certificados</h1>
+        <h1>Certificaciones</h1>
+        <p class="subtitle">Validación de conocimientos y aprendizaje continuo</p>
     </header>
 
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="certificados.html">Certificados</a></li>
             <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="certificados.html" class="active">Certificados</a></li>
         </ul>
     </nav>
 
-    <section>
-        <h2>Certificaciones obtenidas</h2>
+    <main>
+        <div class="grid-container">
 
-        <h3>🔐 Introduction to Cybersecurity</h3>
-        <p>Badge ID: Badge20241115-26-ffwzkl</p>
-        <a href="Introduction_to_Cybersecurity.pdf" target="_blank">📄 Ver PDF</a>
-        <iframe src="Introduction_to_Cybersecurity.pdf" width="100%" height="500px"></iframe>
+            <article class="card">
+                <div class="cert-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Introduction to Cybersecurity</h3>
+                    <p style="color: var(--accent-color); font-weight:bold;">Cisco Networking Academy</p>
+                    <p class="cert-id">ID: Badge20241115-26-ffwzkl</p>
+                    <p>Fundamentos de seguridad de redes y amenazas.</p>
+                    <a href="docs/Introduction_to_Cybersecurity.pdf" target="_blank" class="btn btn-small">📄 Ver Credencial</a>
+                </div>
+            </article>
 
-        <h3>🐍 Python Essentials 1</h3>
-        <p>Badge ID: Update20250311-28-ihe7w6</p>
-        <a href="PythonEssentials1.pdf" target="_blank">📄 Ver PDF</a>
-        <iframe src="PythonEssentials1.pdf" width="100%" height="500px"></iframe>
+            <article class="card">
+                <div class="cert-icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Python Essentials 1</h3>
+                    <p style="color: var(--accent-color); font-weight:bold;">Python Institute</p>
+                    <p class="cert-id">ID: Update20250311-28-ihe7w6</p>
+                    <p>Sintaxis, tipos de datos y programación modular.</p>
+                    <a href="docs/PythonEssentials1.pdf" target="_blank" class="btn btn-small">📄 Ver Credencial</a>
+                </div>
+            </article>
 
-        <h3>🤖 Fundamentos de ChatGPT</h3>
-        <a href="Fundamentos_ChatGPT.pdf" target="_blank">📄 Ver PDF</a>
-        <iframe src="Fundamentos_ChatGPT.pdf" width="100%" height="500px"></iframe>
-    </section>
+            <article class="card">
+                <div class="cert-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Fundamentos de ChatGPT</h3>
+                    <p style="color: var(--accent-color); font-weight:bold;">Educación IT</p>
+                    <p>Uso avanzado de LLMs y Prompt Engineering.</p>
+                    <a href="docs/Fundamentos_ChatGPT.pdf" target="_blank" class="btn btn-small">📄 Ver Credencial</a>
+                </div>
+            </article>
+
+        </div>
+    </main>
 
     <footer>
         <p>© 2025 Santiago Castillo Tadeo</p>
     </footer>
+
 </body>
 </html>
