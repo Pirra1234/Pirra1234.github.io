@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos - Santiago Castillo</title>
+    <title>Proyectos | Santiago Castillo</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <header>
-        <h1>Mis Proyectos</h1>
-        <p class="subtitle">Código, creatividad y soluciones reales</p>
+        <h1>Portafolio</h1>
+        <p class="subtitle">Código, creatividad y soluciones de seguridad</p>
     </header>
 
     <nav>
@@ -23,55 +23,59 @@
     </nav>
 
     <main>
-        <div class="grid-container">
+        <section>
+            <h2>Proyectos Destacados</h2>
+            <div class="grid-container">
 
-            <article class="card">
-                <div style="height:150px; background:#ddd; display:flex; align-items:center; justify-content:center; color:#555;">
-                    <i class="fa-solid fa-code fa-3x"></i>
-                </div>
-                <div class="card-content">
-                    <h3>🤖 Bot de Automatización</h3>
-                    <p>Script en Python para automatizar tareas repetitivas y manejo de archivos. Optimización de tiempos.</p>
-                    <div>
-                        <span class="badge tech">Python</span>
-                        <span class="badge tech">Automation</span>
+                <article class="card">
+                    <div style="height:160px; background: linear-gradient(45deg, #1e293b, #0f172a); display:flex; align-items:center; justify-content:center; border-bottom:1px solid rgba(255,255,255,0.05);">
+                        <i class="fa-brands fa-python fa-4x" style="color:var(--primary);"></i>
                     </div>
-                    <a href="https://github.com/Pirra1234" target="_blank" class="btn btn-small">Ver Código</a>
-                </div>
-            </article>
-
-            <article class="card">
-                <div style="height:150px; background:#ff0000; display:flex; align-items:center; justify-content:center; color:white;">
-                    <i class="fa-brands fa-youtube fa-3x"></i>
-                </div>
-                <div class="card-content">
-                    <h3>Canal Tech @pirra1234</h3>
-                    <p>Creación de contenido educativo sobre tecnología, tutoriales de software y guías de instalación.</p>
-                    <div>
-                        <span class="badge soft">Edición</span>
-                        <span class="badge soft">SEO</span>
-                        <span class="badge soft">Comunicación</span>
+                    <div class="card-content">
+                        <h3>Bot de Automatización</h3>
+                        <p>Script desarrollado en Python para automatizar la organización de archivos y logs del sistema. Reduce tiempos operativos.</p>
+                        <div style="margin-bottom:15px;">
+                            <span class="badge tech">Python</span>
+                            <span class="badge tech">OS Module</span>
+                            <span class="badge tech">Automation</span>
+                        </div>
+                        <a href="https://github.com/Pirra1234" target="_blank" class="btn-small"><i class="fa-brands fa-github"></i> Ver Código</a>
                     </div>
-                    <a href="https://youtube.com/@pirra1234" target="_blank" class="btn btn-small">Visitar Canal</a>
-                </div>
-            </article>
+                </article>
 
-            <article class="card">
-                <div style="height:150px; background:#1abc9c; display:flex; align-items:center; justify-content:center; color:white;">
-                    <i class="fa-solid fa-user-secret fa-3x"></i>
-                </div>
-                <div class="card-content">
-                    <h3>Laboratorio de Hacking</h3>
-                    <p>Entorno controlado para pruebas de penetración y análisis de vulnerabilidades usando Kali Linux.</p>
-                    <div>
-                        <span class="badge tech">Kali Linux</span>
-                        <span class="badge tech">Networking</span>
+                <article class="card">
+                    <div style="height:160px; background: linear-gradient(45deg, #991b1b, #450a0a); display:flex; align-items:center; justify-content:center; border-bottom:1px solid rgba(255,255,255,0.05);">
+                        <i class="fa-brands fa-youtube fa-4x" style="color:white;"></i>
                     </div>
-                    <a href="#" class="btn btn-small">Ver Detalles</a>
-                </div>
-            </article>
+                    <div class="card-content">
+                        <h3>Canal Tech @pirra1234</h3>
+                        <p>Canal educativo enfocado en tutoriales de software y tecnología. Gestión completa de SEO, edición y guionización.</p>
+                        <div style="margin-bottom:15px;">
+                            <span class="badge soft">Content Creator</span>
+                            <span class="badge soft">Video Editing</span>
+                        </div>
+                        <a href="https://youtube.com/@pirra1234" target="_blank" class="btn-small"><i class="fa-solid fa-play"></i> Visitar Canal</a>
+                    </div>
+                </article>
 
-        </div>
+                <article class="card">
+                    <div style="height:160px; background: linear-gradient(45deg, #064e3b, #022c22); display:flex; align-items:center; justify-content:center; border-bottom:1px solid rgba(255,255,255,0.05);">
+                        <i class="fa-solid fa-user-secret fa-4x" style="color:#34d399;"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Laboratorio Pentesting</h3>
+                        <p>Despliegue de un entorno virtualizado con Kali Linux y Metasploitable para prácticas éticas de análisis de vulnerabilidades.</p>
+                        <div style="margin-bottom:15px;">
+                            <span class="badge tech">Kali Linux</span>
+                            <span class="badge tech">VirtualBox</span>
+                            <span class="badge tech">Networking</span>
+                        </div>
+                        <a href="#" class="btn-small" style="opacity:0.5; cursor:not-allowed;">En Progreso</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
     </main>
 
     <footer>
